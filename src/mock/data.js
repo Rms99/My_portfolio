@@ -46,7 +46,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.JPG',
+    img: 'project.jpg',
     title: 'Music Player (JAVA, JavaFX)',
     info: 'Developed and executed a Java based Music Player, using the javax.sound library and used JavaFX for GUI.',
     info2: 'The player can play any music file and the user is able to load, pause/resume and loop the music.',
