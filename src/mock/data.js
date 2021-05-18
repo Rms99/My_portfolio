@@ -77,7 +77,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: 'https://twitter.com/ranamanavsingh1/status/1394637141980815363?s=21',
+      url: 'https://twitter.com/RanaManavSingh1',
     },
     {
       id: nanoid(),
