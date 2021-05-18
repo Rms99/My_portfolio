@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Rana Manav Singh | Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my website.', // e.g: Welcome to my website
 };
@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Rana Manav Singh',
-  subtitle: 'Software developer',
+  subtitle: '{ Software developer }',
   cta: '',
 };
 
@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'Hi ! my name is Rana Manav Singh I am currently majoring Computer Science at york university.I am a programmer who is successful at managing teams, driving progress toward project milestones, quality assurance, and on-time delivery, with exceptional talents in Java. ',
   paragraphTwo: 'My technical skills include - Java; Python; C; C++; JavaScript, CSS; HTML5; SQL; React; Gatsby; Docker; GitHub; Bash',
   paragraphThree: 'I am very reliable ,a hard worker and a very enthusiastic person. Curious for knowledge and have a keen interest in developing softwares, websites and applications.',
-  resume: 'https://www.linkedin.com/in/rana-manav-singh-20b21518a/', // if no resume, the button will not show up
+  resume: 'https://github.com/Rms99/Resum_e/blob/main/Resume%20-%20Rana%20Manav%20Singh.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'Express Parking System (JAVA, Maven, JaCoCo)',
     info: 'Developed the system for replacing manual parking spots all over Toronto, using java for backend, java swing for GUI implementation ,CSV files as database and used Maven to manage the libraries.',
     info2: 'Wrote extensive Junit test cases for each of the above-mentioned requirements and reached 82.1% average code coverage for the non-GUI/Backend classes (Using EclEmma JaCoCo).',
-    url: '',
+    url: 'https://youtu.be/SUYLIIH4rQ0',
     repo: 'https://github.com/Rms99/Express_parking_System/tree/master/EECS3311-project', // if no repo, the button will not show up
   },
   {
@@ -77,12 +77,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: 'https://github.com/Rms99',
+      url: 'https://twitter.com/ranamanavsingh1/status/1394637141980815363?s=21',
     },
     {
       id: nanoid(),
       name: 'codepen',
-      url: 'https://www.linkedin.com/in/rana-manav-singh-20b21518a/',
+      url: 'https://github.com/Rms99/Resum_e/blob/main/Resume%20-%20Rana%20Manav%20Singh.pdf',
     },
     {
       id: nanoid(),
@@ -99,5 +99,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
