@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'rana.jpg',
-  paragraphOne: 'Hi ! my name is Rana Manav Singh I am currently majoring Computer Science at york university.I am a programmer who is successful at managing teams, driving progress toward project milestones, quality assurance, and on-time delivery, with exceptional talents in Java. ',
-  paragraphTwo: 'My technical skills include - Java; Python; C; C++; JavaScript, CSS; HTML5; SQL; React; Gatsby; Docker; GitHub; Bash',
-  paragraphThree: 'I am very reliable ,a hard worker and a very enthusiastic person. Curious for knowledge and have a keen interest in developing softwares, websites and applications.',
+  paragraphOne: 'Hi! My name is Rana Manav Singh I am a Senior, currently majoring Computer Science at York university. I am a programmer who is successful at managing teams, driving progress toward project milestones, quality assurance, and on-time delivery, with exceptional talents in Java, JavaScript and React. ',
+  paragraphTwo: 'My technical skills include - Java; Python; C; C++; JavaScript; Node.js; CSS; HTML5; SQL; React; Vue.js; Gatsby; Docker; GitHub; Bash; HDFS',
+  paragraphThree: 'I am very reliable, hard worker and a very enthusiastic person. Curious for knowledge and have a keen interest in developing softwares, websites and applications.',
   resume: 'https://github.com/Rms99/Resum_e/blob/main/Resume%20-%20Rana%20Manav%20Singh.pdf', // if no resume, the button will not show up
 };
 
