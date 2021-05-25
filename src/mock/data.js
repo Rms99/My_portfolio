@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Rana Manav Singh',
-  subtitle: '{ Software developer }',
+  subtitle: '{ FullStack developer }',
   cta: '',
 };
 
@@ -26,6 +26,15 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+   {
+    id: nanoid(),
+    img: 'chat_room.JPG',
+    title: 'Chat Room Web App (React, Node.js,Firebase DB)',
+    info: 'Developed the web application using react, Node.js, CSS, and Firebase database.',
+    info2: 'User login using google authentication and send messages in the room chat.',
+    url: '',
+    repo: 'https://github.com/Rms99/Chat-room', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'project_p.JPG',
